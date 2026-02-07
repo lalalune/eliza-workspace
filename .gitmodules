@@ -1,0 +1,21 @@
+[submodule "benchmarks"]
+	path = benchmarks
+	url = https://github.com/elizaOS/benchmarks.git
+[submodule "dungeons"]
+	path = dungeons
+	url = https://github.com/lalalune/dungeons.git
+[submodule "eliza"]
+	path = eliza
+	url = https://github.com/elizaos/eliza.git
+[submodule "examples"]
+	path = examples
+	url = https://github.com/elizaOS/examples.git
+[submodule "milaidy"]
+	path = milaidy
+	url = https://github.com/milady-ai/milaidy.git
+[submodule "plugins"]
+	path = plugins
+	url = https://github.com/lalalune/plugins.git
+[submodule "registry"]
+	path = registry
+	url = https://github.com/elizaOS-plugins/registry.git

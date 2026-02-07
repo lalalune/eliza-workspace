@@ -1,0 +1,31 @@
+{
+  "name": "eliza-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ElizaOS monorepo workspace — plugins, packages, examples, and tools",
+  "scripts": {
+    "setup": "scripts/setup.sh",
+    "setup:update": "scripts/setup.sh --update",
+    "setup:quick": "scripts/setup.sh --skip-build",
+    "dev": "scripts/dev.sh",
+    "dev:eliza": "scripts/dev.sh eliza",
+    "dev:dungeons": "scripts/dev.sh dungeons",
+    "dev:milaidy": "scripts/dev.sh milaidy",
+    "publish:all": "scripts/publish-all.sh",
+    "publish:plugins": "scripts/publish-plugins.sh",
+    "publish:packages": "scripts/publish-packages.sh",
+    "publish:all:dry": "scripts/publish-all.sh --dry-run",
+    "publish:plugins:dry": "scripts/publish-plugins.sh --dry-run",
+    "publish:packages:dry": "scripts/publish-packages.sh --dry-run",
+    "push:plugins": "scripts/push-plugins.sh",
+    "dist-tags": "scripts/ensure-dist-tags.sh",
+    "dist-tags:dry": "scripts/ensure-dist-tags.sh --dry-run",
+    "submodules:init": "scripts/setup-submodules.sh",
+    "submodules:update": "scripts/setup-submodules.sh --update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lalalune/eliza-workspace.git"
+  },
+  "license": "MIT"
+}
