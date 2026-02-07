@@ -35,6 +35,9 @@ target/
 # Surfpool
 .surfpool/
 
+# Excluded submodules
+lucid-agents/
+
 # Misc
 package-lock.json
 *.log
