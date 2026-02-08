@@ -9,6 +9,7 @@ dist/
 # Environment
 .env
 .env.local
+.env.test
 .env.*.local
 
 # Editor / OS
@@ -34,9 +35,6 @@ target/
 
 # Surfpool
 .surfpool/
-
-# Excluded submodules
-lucid-agents/
 
 # Misc
 package-lock.json
