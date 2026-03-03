@@ -19,3 +19,9 @@
 [submodule "registry"]
 	path = registry
 	url = https://github.com/elizaOS-plugins/registry.git
+[submodule "milaidymaker/lib/forge-std"]
+	path = milaidymaker/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "milaidymaker/lib/openzeppelin-contracts"]
+	path = milaidymaker/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts

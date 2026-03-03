@@ -1,0 +1,21 @@
+{
+    "name": "openclaw-plugin-elizacloud",
+    "version": "1.0.0",
+    "description": "OpenClaw extension for ElizaCloud (Inference and RPC Tools)",
+    "type": "module",
+    "dependencies": {
+        "@sinclair/typebox": "^0.34.48"
+    },
+    "devDependencies": {
+        "@types/node": "^22.0.0",
+        "openclaw": "file:../openclaw"
+    },
+    "openclaw": {
+        "extensions": [
+            "./src/index.ts"
+        ]
+    },
+    "scripts": {
+        "build": "tsc"
+    }
+}

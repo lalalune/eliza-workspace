@@ -1,0 +1,13 @@
+{
+    "id": "openclaw-plugin-elizacloud",
+    "name": "ElizaCloud",
+    "description": "Native OpenClaw extension for ElizaOS Cloud API",
+    "providers": [
+        "elizacloud"
+    ],
+    "configSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {}
+    }
+}
