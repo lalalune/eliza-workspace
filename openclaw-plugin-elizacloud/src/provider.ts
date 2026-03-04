@@ -62,13 +62,12 @@ export function registerProvider(api: any) {
                         // Default fallback models if the fetch failed or returned empty
                         if (fetchedModels.length === 0) {
                             fetchedModels = [
+                                { id: "gpt-5.3", name: "GPT-5.3", input: ["text", "image"], contextWindow: 200000, maxTokens: 16384 },
                                 { id: "gpt-4o", name: "GPT-4o (ElizaCloud)", input: ["text", "image"], contextWindow: 128000, maxTokens: 4096 },
-                                { id: "gpt-4o-mini", name: "GPT-4o Mini (ElizaCloud)", input: ["text", "image"], contextWindow: 128000, maxTokens: 16384 },
-                                { id: "claude-3-5-sonnet", name: "Claude 3.5 Sonnet (ElizaCloud)", input: ["text", "image"], contextWindow: 200000, maxTokens: 8192 },
+                                { id: "codex", name: "Codex", input: ["text"], contextWindow: 128000, maxTokens: 8192 },
+                                { id: "claude-4.6", name: "Claude 4.6", input: ["text", "image"], contextWindow: 200000, maxTokens: 8192 },
                                 { id: "gemini-2.0-flash", name: "Gemini 2.0 Flash (ElizaCloud)", input: ["text", "image"], contextWindow: 1048576, maxTokens: 8192 },
-                                { id: "claude-opus-4.1", name: "Claude Opus 4.1 (ElizaCloud)", input: ["text", "image"], contextWindow: 200000, maxTokens: 8192 },
                                 { id: "deepseek-r1", name: "DeepSeek R1", input: ["text"], contextWindow: 128000, maxTokens: 4096, reasoning: true },
-                                { id: "deepseek-v3.2-exp", name: "DeepSeek V3.2", input: ["text"], contextWindow: 128000, maxTokens: 8192 }
                             ];
                         } else {
                             // Ensure default model exists
